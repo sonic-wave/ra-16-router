@@ -1,0 +1,80 @@
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.post-createBtn, .post-editBtn, .post-deleteBtn {
+    width: 100px;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+    text-decoration: none;
+}
+
+.post-createBtn:hover, .post-editBtn:hover {
+    background-color: royalblue;
+}
+
+.post-deleteBtn {
+    background-color: firebrick;
+}
+
+.post-deleteBtn:hover {
+    background-color: darkred;
+}
+
+
+.post-component {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid silver;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.post-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+
+.post-additional-info {
+    display: flex;
+    flex-direction: column;  
+    text-align: left;
+}
+
+
+.post-name {
+    color: cornflowerblue;
+}
+
+.post-card {
+    text-decoration: none;
+    color: cornflowerblue;
+    cursor: pointer;
+    justify-self: end;
+    margin-left: auto;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.post-card:hover {
+    color: royalblue;
+}
+
+.post-content {
+    text-align: left;
+    font-size: 20px;
+}

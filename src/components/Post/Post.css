@@ -1,0 +1,13 @@
+.post-backBtn {
+    width: 100px;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.post-backBtn:hover {
+    background-color: royalblue;
+}
